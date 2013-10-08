@@ -1,7 +1,7 @@
 node default{
 	case $role {
-		dev-platform-ws: {import dev-platform-ws.pp}
-		dev-apps-ws: {import dev-apps-ws.pp}
+		devws-platform: {import devws-platform.pp}
+		devws-apps: {import devws-apps.pp}
 	}
 
 }
