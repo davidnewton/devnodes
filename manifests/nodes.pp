@@ -1,7 +1,8 @@
-node default{
+node default {
 	case $role {
-		devws-platform: {import devws-platform.pp}
-		devws-apps: {import devws-apps.pp}
+		"devws-platform": 	{ import "devws-platform.pp" }
+		"devws-apps": 		{ import "devws-apps.pp" }
+		default: 			{ notice "default role" }
 	}
 
 }
